@@ -1,0 +1,2373 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fe7b1f96c0c44e908681958913c316c3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_fe7b1f96c0c44e908681958913c316c3" ></div>
+        
+</body>
+<script>    
+    
+            var map_fe7b1f96c0c44e908681958913c316c3 = L.map(
+                "map_fe7b1f96c0c44e908681958913c316c3",
+                {
+                    center: [21.0, 78.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bcfb73ed9f484f6cb23766fef9e92176 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var marker_aeecb30b8bd24f359bd38b63ce3402b4 = L.marker(
+                [18.48587, 73.905853],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_8d9550a5634c4879859bb45d2c6322e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_aeecb30b8bd24f359bd38b63ce3402b4.setIcon(icon_8d9550a5634c4879859bb45d2c6322e9);
+        
+    
+        var popup_ca32d04475b04a37a3aa5bb2fc9c35ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7508f7ae33141408dee307989a8a2a3 = $(`<div id="html_f7508f7ae33141408dee307989a8a2a3" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/ruby-hall-clinic-wanowrie-maharashtra-india-28694.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_ca32d04475b04a37a3aa5bb2fc9c35ae.setContent(html_f7508f7ae33141408dee307989a8a2a3);
+        
+
+        marker_aeecb30b8bd24f359bd38b63ce3402b4.bindPopup(popup_ca32d04475b04a37a3aa5bb2fc9c35ae)
+        ;
+
+        
+    
+    
+            marker_aeecb30b8bd24f359bd38b63ce3402b4.bindTooltip(
+                `<div>
+                     Ruby Hall Clinic Wanowrie, Maharashtra, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f03dc18baffa4641b536c4bffd8c53ac = L.marker(
+                [28.456789, 77.072472],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_43ddeb34310840edb46007d8e65ee809 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f03dc18baffa4641b536c4bffd8c53ac.setIcon(icon_43ddeb34310840edb46007d8e65ee809);
+        
+    
+        var popup_a2ef604471854cda9297f46a274436c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab83908727f4409bb04d84d0c989927e = $(`<div id="html_ab83908727f4409bb04d84d0c989927e" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/fortis-memorial-research-institute-gurgaon-india-27382.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_a2ef604471854cda9297f46a274436c1.setContent(html_ab83908727f4409bb04d84d0c989927e);
+        
+
+        marker_f03dc18baffa4641b536c4bffd8c53ac.bindPopup(popup_a2ef604471854cda9297f46a274436c1)
+        ;
+
+        
+    
+    
+            marker_f03dc18baffa4641b536c4bffd8c53ac.bindTooltip(
+                `<div>
+                     Fortis Memorial Research Institute, Gurgaon, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71eac89ef11349ec8c7190e6db2062b3 = L.marker(
+                [23.053967, 72.603844],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_6d13228eb0b1438a9e1d1adffc4b480b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_71eac89ef11349ec8c7190e6db2062b3.setIcon(icon_6d13228eb0b1438a9e1d1adffc4b480b);
+        
+    
+        var popup_129924d8e7fb4cbfa02f1c8fe5176fdc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5bbe5e02e1a9481c963586eb675586be = $(`<div id="html_5bbe5e02e1a9481c963586eb675586be" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/ahmedabad-civil-hospital-ahmedabad-gujarat-india-27347.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_129924d8e7fb4cbfa02f1c8fe5176fdc.setContent(html_5bbe5e02e1a9481c963586eb675586be);
+        
+
+        marker_71eac89ef11349ec8c7190e6db2062b3.bindPopup(popup_129924d8e7fb4cbfa02f1c8fe5176fdc)
+        ;
+
+        
+    
+    
+            marker_71eac89ef11349ec8c7190e6db2062b3.bindTooltip(
+                `<div>
+                     Ahmedabad Civil Hospital, Ahmedabad, Gujarat, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e7123af63967469ea7dae5e837cb240d = L.marker(
+                [16.511965, 80.633163],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_8fd2195148034c8d9eac3bd4885bfd8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e7123af63967469ea7dae5e837cb240d.setIcon(icon_8fd2195148034c8d9eac3bd4885bfd8d);
+        
+    
+        var popup_53fd76e384664112a3a7eae04a53b99c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c528100f20fd4da08ae503338aca73e3 = $(`<div id="html_c528100f20fd4da08ae503338aca73e3" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/aakrithi-hospital-vijayawada-andhra-pradesh-india-26041.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_53fd76e384664112a3a7eae04a53b99c.setContent(html_c528100f20fd4da08ae503338aca73e3);
+        
+
+        marker_e7123af63967469ea7dae5e837cb240d.bindPopup(popup_53fd76e384664112a3a7eae04a53b99c)
+        ;
+
+        
+    
+    
+            marker_e7123af63967469ea7dae5e837cb240d.bindTooltip(
+                `<div>
+                     Aakrithi Hospital, Vijayawada, Andhra Pradesh, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d74b4274828441648d0a88a0468203dc = L.marker(
+                [8.749402, 78.168137],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_5d6282b84b744836873e11648e479d27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_d74b4274828441648d0a88a0468203dc.setIcon(icon_5d6282b84b744836873e11648e479d27);
+        
+    
+        var popup_648ae3fbe67c436083c1615edb16e707 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de033ed9b6ec4574bee8603f5cb37473 = $(`<div id="html_de033ed9b6ec4574bee8603f5cb37473" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/voc-port-trust-hospital-muttayyapuram-tamil-nadu-india-25928.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_648ae3fbe67c436083c1615edb16e707.setContent(html_de033ed9b6ec4574bee8603f5cb37473);
+        
+
+        marker_d74b4274828441648d0a88a0468203dc.bindPopup(popup_648ae3fbe67c436083c1615edb16e707)
+        ;
+
+        
+    
+    
+            marker_d74b4274828441648d0a88a0468203dc.bindTooltip(
+                `<div>
+                     VOC Port Trust Hospital, Muttayyapuram, Tamil Nadu , India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6310c984a4944a7bb2fe65d066a8afbd = L.marker(
+                [22.554609, 72.967361],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_3d24893fa0054268ab23e8f89f30ca57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_6310c984a4944a7bb2fe65d066a8afbd.setIcon(icon_3d24893fa0054268ab23e8f89f30ca57);
+        
+    
+        var popup_66e76578f8924762b2c8966b2dfe34cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c05b18982ce4465b4307aa676282fee = $(`<div id="html_7c05b18982ce4465b4307aa676282fee" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/vihar-hospital-anand-gujarat-india-25822.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_66e76578f8924762b2c8966b2dfe34cc.setContent(html_7c05b18982ce4465b4307aa676282fee);
+        
+
+        marker_6310c984a4944a7bb2fe65d066a8afbd.bindPopup(popup_66e76578f8924762b2c8966b2dfe34cc)
+        ;
+
+        
+    
+    
+            marker_6310c984a4944a7bb2fe65d066a8afbd.bindTooltip(
+                `<div>
+                     Vihar Hospital, Anand, Gujarat, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c49e8178d424ceca1cdfd8795209a2e = L.marker(
+                [30.912411, 75.819412],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_a44b4d06a3af4a6f9b0037e7dc49046a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_6c49e8178d424ceca1cdfd8795209a2e.setIcon(icon_a44b4d06a3af4a6f9b0037e7dc49046a);
+        
+    
+        var popup_ef61f6cf75cb4787917006d115658be3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_925dde24eb7c44449a08871dd946ea40 = $(`<div id="html_925dde24eb7c44449a08871dd946ea40" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/advanced-centre-for-eyes-kitchlu-nagar-ludhiana-punjab-india-25821.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_ef61f6cf75cb4787917006d115658be3.setContent(html_925dde24eb7c44449a08871dd946ea40);
+        
+
+        marker_6c49e8178d424ceca1cdfd8795209a2e.bindPopup(popup_ef61f6cf75cb4787917006d115658be3)
+        ;
+
+        
+    
+    
+            marker_6c49e8178d424ceca1cdfd8795209a2e.bindTooltip(
+                `<div>
+                     Advanced Centre for Eyes, Kitchlu Nagar, Ludhiana, Punjab, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e7fb22107acf4ed4a7feab7cc3ac57de = L.marker(
+                [28.653229, 77.308601],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_b69b93528a704ebe800b05a8d50aa6d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e7fb22107acf4ed4a7feab7cc3ac57de.setIcon(icon_b69b93528a704ebe800b05a8d50aa6d1);
+        
+    
+        var popup_8fb291d9d34f49578d555fb1bb06ff18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afa9221a624748efafa3c37add0334d5 = $(`<div id="html_afa9221a624748efafa3c37add0334d5" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/delhi-heart-hospital-jagriti-enclave-anand-vihar-delhi-india-25398.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_8fb291d9d34f49578d555fb1bb06ff18.setContent(html_afa9221a624748efafa3c37add0334d5);
+        
+
+        marker_e7fb22107acf4ed4a7feab7cc3ac57de.bindPopup(popup_8fb291d9d34f49578d555fb1bb06ff18)
+        ;
+
+        
+    
+    
+            marker_e7fb22107acf4ed4a7feab7cc3ac57de.bindTooltip(
+                `<div>
+                     Delhi Heart Hospital, Jagriti Enclave, Anand Vihar, Delhi, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d3ae661c81d24daea024e32ad2773d53 = L.marker(
+                [28.231674, 80.862534],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_89488707543d481aa1ad7c86801a2711 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_d3ae661c81d24daea024e32ad2773d53.setIcon(icon_89488707543d481aa1ad7c86801a2711);
+        
+    
+        var popup_47975658403d459bb3128d4c7207d65b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55b80d70a27c4556b0972458cf1136ad = $(`<div id="html_55b80d70a27c4556b0972458cf1136ad" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/nighasan-hospital-nighasan-uttar-pradesh-india-25384.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_47975658403d459bb3128d4c7207d65b.setContent(html_55b80d70a27c4556b0972458cf1136ad);
+        
+
+        marker_d3ae661c81d24daea024e32ad2773d53.bindPopup(popup_47975658403d459bb3128d4c7207d65b)
+        ;
+
+        
+    
+    
+            marker_d3ae661c81d24daea024e32ad2773d53.bindTooltip(
+                `<div>
+                     Nighasan Hospital, Nighasan, Uttar Pradesh, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4035ded6b1ae417ba91b6926f7599aa5 = L.marker(
+                [21.182947, 72.831581],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_8f9e23fcbcce416480956b683e2dc0d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_4035ded6b1ae417ba91b6926f7599aa5.setIcon(icon_8f9e23fcbcce416480956b683e2dc0d6);
+        
+    
+        var popup_f9923b8a6aef44e0899ccdab6af3bf96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10b36ac443f841bfba338d4845b8a708 = $(`<div id="html_10b36ac443f841bfba338d4845b8a708" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/apple-hospital-surat-gujarat-india-24906.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_f9923b8a6aef44e0899ccdab6af3bf96.setContent(html_10b36ac443f841bfba338d4845b8a708);
+        
+
+        marker_4035ded6b1ae417ba91b6926f7599aa5.bindPopup(popup_f9923b8a6aef44e0899ccdab6af3bf96)
+        ;
+
+        
+    
+    
+            marker_4035ded6b1ae417ba91b6926f7599aa5.bindTooltip(
+                `<div>
+                     Apple Hospital, Surat, Gujarat, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_19d368824e364a72849ed45d5da9db95 = L.marker(
+                [12.571047, 77.001183],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_1101310b53904b20b17bc9a5309b2ee7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_19d368824e364a72849ed45d5da9db95.setIcon(icon_1101310b53904b20b17bc9a5309b2ee7);
+        
+    
+        var popup_ec47e890e4ea4b66bdabb60fd01bda32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a08f299b8d54b9a87dd2d9d2532a3c6 = $(`<div id="html_3a08f299b8d54b9a87dd2d9d2532a3c6" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/primary-health-centre-gejjalagere-karnataka-india-24859.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_ec47e890e4ea4b66bdabb60fd01bda32.setContent(html_3a08f299b8d54b9a87dd2d9d2532a3c6);
+        
+
+        marker_19d368824e364a72849ed45d5da9db95.bindPopup(popup_ec47e890e4ea4b66bdabb60fd01bda32)
+        ;
+
+        
+    
+    
+            marker_19d368824e364a72849ed45d5da9db95.bindTooltip(
+                `<div>
+                     Primary Health Centre, Gejjalagere, Karnataka, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4cb382153b9a45338b7f48c9ff06cabf = L.marker(
+                [28.575552, 77.262192],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_8a3390e5c49a4a8db8540cc1c12934fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_4cb382153b9a45338b7f48c9ff06cabf.setIcon(icon_8a3390e5c49a4a8db8540cc1c12934fa);
+        
+    
+        var popup_d56c1ef78cde4010af0926095d82dae3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ad9ca377ed14109ab761d0cfe184741 = $(`<div id="html_5ad9ca377ed14109ab761d0cfe184741" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/32-smile-stone-dental-clinic-new-delhi-delhi-india-24738.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_d56c1ef78cde4010af0926095d82dae3.setContent(html_5ad9ca377ed14109ab761d0cfe184741);
+        
+
+        marker_4cb382153b9a45338b7f48c9ff06cabf.bindPopup(popup_d56c1ef78cde4010af0926095d82dae3)
+        ;
+
+        
+    
+    
+            marker_4cb382153b9a45338b7f48c9ff06cabf.bindTooltip(
+                `<div>
+                     32 Smile Stone Dental Clinic, New Delhi, Delhi, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a13a9c9a63543da84deb266fd7237df = L.marker(
+                [31.52462, 75.902008],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_1facfa66fefd4a27b06a1a7a9f51faaa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_7a13a9c9a63543da84deb266fd7237df.setIcon(icon_1facfa66fefd4a27b06a1a7a9f51faaa);
+        
+    
+        var popup_247b025193f94c35b970522bc9964dcb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d5f6e9cbb9b4b749f9a562ede370a76 = $(`<div id="html_1d5f6e9cbb9b4b749f9a562ede370a76" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/veterinary-polyclinic-hoshiarpur-punjab-india-23936.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_247b025193f94c35b970522bc9964dcb.setContent(html_1d5f6e9cbb9b4b749f9a562ede370a76);
+        
+
+        marker_7a13a9c9a63543da84deb266fd7237df.bindPopup(popup_247b025193f94c35b970522bc9964dcb)
+        ;
+
+        
+    
+    
+            marker_7a13a9c9a63543da84deb266fd7237df.bindTooltip(
+                `<div>
+                     Veterinary Polyclinic, Hoshiarpur, Punjab, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f096f18a2e1749a98980e4392cc20826 = L.marker(
+                [17.733288, 83.275429],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_84ca2a1646054fd580368f6f95ae1b3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f096f18a2e1749a98980e4392cc20826.setIcon(icon_84ca2a1646054fd580368f6f95ae1b3d);
+        
+    
+        var popup_2af8c72b5c384e938b271b891423786f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5077e1e881f449c082c3a7fb1c975811 = $(`<div id="html_5077e1e881f449c082c3a7fb1c975811" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/hashmika-child-clinic-visakhapatnam-andhra-pradesh-india-23724.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_2af8c72b5c384e938b271b891423786f.setContent(html_5077e1e881f449c082c3a7fb1c975811);
+        
+
+        marker_f096f18a2e1749a98980e4392cc20826.bindPopup(popup_2af8c72b5c384e938b271b891423786f)
+        ;
+
+        
+    
+    
+            marker_f096f18a2e1749a98980e4392cc20826.bindTooltip(
+                `<div>
+                     Hashmika Child Clinic, Visakhapatnam, Andhra Pradesh, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd5c0eb648bb48eb80679a40d5393039 = L.marker(
+                [13.07279, 80.234421],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_bc05ec12ab464e1ea13e2d749660e22e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_bd5c0eb648bb48eb80679a40d5393039.setIcon(icon_bc05ec12ab464e1ea13e2d749660e22e);
+        
+    
+        var popup_9ce791322011476bad44aac69e09e692 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc25ff42e8674810a86bca8ba765bbbb = $(`<div id="html_fc25ff42e8674810a86bca8ba765bbbb" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/padmini-nursing-home-chetpet-chennai-tamil-nadu-india-23684.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_9ce791322011476bad44aac69e09e692.setContent(html_fc25ff42e8674810a86bca8ba765bbbb);
+        
+
+        marker_bd5c0eb648bb48eb80679a40d5393039.bindPopup(popup_9ce791322011476bad44aac69e09e692)
+        ;
+
+        
+    
+    
+            marker_bd5c0eb648bb48eb80679a40d5393039.bindTooltip(
+                `<div>
+                     Padmini Nursing Home, Chetpet, Chennai, Tamil Nadu, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bda89dea19094803b6e25f50ce431289 = L.marker(
+                [22.674788, 87.827484],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_2543cb4d9a0c476fa8aebf50b5b847b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_bda89dea19094803b6e25f50ce431289.setIcon(icon_2543cb4d9a0c476fa8aebf50b5b847b0);
+        
+    
+        var popup_22d6f4f7b16949f6b8180ac034018930 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_145bc9086e8a41f5aa1ff57a40010157 = $(`<div id="html_145bc9086e8a41f5aa1ff57a40010157" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/subham-diagnostic-polyclinic-rajhati-west-bengal-india-23627.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_22d6f4f7b16949f6b8180ac034018930.setContent(html_145bc9086e8a41f5aa1ff57a40010157);
+        
+
+        marker_bda89dea19094803b6e25f50ce431289.bindPopup(popup_22d6f4f7b16949f6b8180ac034018930)
+        ;
+
+        
+    
+    
+            marker_bda89dea19094803b6e25f50ce431289.bindTooltip(
+                `<div>
+                     Subham Diagnostic & Polyclinic, Rajhati, West Bengal, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_afba68529a114700aa4d56863bf6d5b4 = L.marker(
+                [18.643318, 73.756042],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_02a5cc246903498b929310a789bd4a93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_afba68529a114700aa4d56863bf6d5b4.setIcon(icon_02a5cc246903498b929310a789bd4a93);
+        
+    
+        var popup_280b5b240f04433fba745175b6cf6e1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42edd4c64f174250a33a13035aee62bf = $(`<div id="html_42edd4c64f174250a33a13035aee62bf" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/smile-art-dental-clinic-ravet-pimpri-chinchwad-maharashtra-india-22941.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_280b5b240f04433fba745175b6cf6e1a.setContent(html_42edd4c64f174250a33a13035aee62bf);
+        
+
+        marker_afba68529a114700aa4d56863bf6d5b4.bindPopup(popup_280b5b240f04433fba745175b6cf6e1a)
+        ;
+
+        
+    
+    
+            marker_afba68529a114700aa4d56863bf6d5b4.bindTooltip(
+                `<div>
+                     Smile Art Dental Clinic, Ravet, Pimpri-Chinchwad, Maharashtra, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc573f277aec4ab8842324dfd916515e = L.marker(
+                [15.589379, 73.816574],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_b4b494e2a625491eacebefe4f06dc749 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_cc573f277aec4ab8842324dfd916515e.setIcon(icon_b4b494e2a625491eacebefe4f06dc749);
+        
+    
+        var popup_2444d7bca87344538d43fdb582cd5909 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_160cb75a2b67473582d3a41fe932bceb = $(`<div id="html_160cb75a2b67473582d3a41fe932bceb" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/asilo-hospital-mapusa-goa-india-22490.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_2444d7bca87344538d43fdb582cd5909.setContent(html_160cb75a2b67473582d3a41fe932bceb);
+        
+
+        marker_cc573f277aec4ab8842324dfd916515e.bindPopup(popup_2444d7bca87344538d43fdb582cd5909)
+        ;
+
+        
+    
+    
+            marker_cc573f277aec4ab8842324dfd916515e.bindTooltip(
+                `<div>
+                     Asilo Hospital, Mapusa, Goa, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5df8936cbf7c4d21af9ebbfeb7536e04 = L.marker(
+                [22.742229, 88.05146],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_5b0f2ccd7fa1433c814c36dd5a642dd9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_5df8936cbf7c4d21af9ebbfeb7536e04.setIcon(icon_5b0f2ccd7fa1433c814c36dd5a642dd9);
+        
+    
+        var popup_3ca33939471440a593f4e2ff82ba13a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0d8ca6870de4a858a19707d5e5076dd = $(`<div id="html_e0d8ca6870de4a858a19707d5e5076dd" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/general-hospital-jangipara-hooghly-west-bangali-india-22441.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_3ca33939471440a593f4e2ff82ba13a0.setContent(html_e0d8ca6870de4a858a19707d5e5076dd);
+        
+
+        marker_5df8936cbf7c4d21af9ebbfeb7536e04.bindPopup(popup_3ca33939471440a593f4e2ff82ba13a0)
+        ;
+
+        
+    
+    
+            marker_5df8936cbf7c4d21af9ebbfeb7536e04.bindTooltip(
+                `<div>
+                     General Hospital, Jangipara, Hooghly, West Bangali, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29e57b71face4adfb3da4356809c87ca = L.marker(
+                [16.709822, 74.227463],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_e3d1478f9b384e4198450df0756c488a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_29e57b71face4adfb3da4356809c87ca.setIcon(icon_e3d1478f9b384e4198450df0756c488a);
+        
+    
+        var popup_137be649b85c4832b58918121419cff9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d620814a26047ed98032ee53e0e9f46 = $(`<div id="html_7d620814a26047ed98032ee53e0e9f46" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/western-india-institute-of-neurosciences-nagala-park-kolhapur-maharashtra-india-22440.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_137be649b85c4832b58918121419cff9.setContent(html_7d620814a26047ed98032ee53e0e9f46);
+        
+
+        marker_29e57b71face4adfb3da4356809c87ca.bindPopup(popup_137be649b85c4832b58918121419cff9)
+        ;
+
+        
+    
+    
+            marker_29e57b71face4adfb3da4356809c87ca.bindTooltip(
+                `<div>
+                     Western India Institute Of Neurosciences, Nagala Park, Kolhapur, Maharashtra, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0903c732375446e7815a29f3720ef459 = L.marker(
+                [23.830975, 80.40712],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_a75858c3c2f241db8ccc689e2bb36f8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0903c732375446e7815a29f3720ef459.setIcon(icon_a75858c3c2f241db8ccc689e2bb36f8c);
+        
+    
+        var popup_02601412463d4142a781263694800425 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac375deab5854ebfb320a2ec7d3ac38e = $(`<div id="html_ac375deab5854ebfb320a2ec7d3ac38e" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/mgm-hospital-and-research-center-katni-madhya-pradesh-india-22093.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_02601412463d4142a781263694800425.setContent(html_ac375deab5854ebfb320a2ec7d3ac38e);
+        
+
+        marker_0903c732375446e7815a29f3720ef459.bindPopup(popup_02601412463d4142a781263694800425)
+        ;
+
+        
+    
+    
+            marker_0903c732375446e7815a29f3720ef459.bindTooltip(
+                `<div>
+                     MGM Hospital and Research Center, Katni, Madhya Pradesh, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_279df7c7535149a1be6ed95f52134659 = L.marker(
+                [20.651484, 84.629814],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_26b325dc0fda4f009734635bcc0695c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_279df7c7535149a1be6ed95f52134659.setIcon(icon_26b325dc0fda4f009734635bcc0695c3);
+        
+    
+        var popup_a34269d252394383afe4c9462d3df4a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_381d8c5b1a4e41ebaf3a636c03227cfc = $(`<div id="html_381d8c5b1a4e41ebaf3a636c03227cfc" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/primary-health-care-center-pataka-athmallik-odisha-india-20911.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_a34269d252394383afe4c9462d3df4a2.setContent(html_381d8c5b1a4e41ebaf3a636c03227cfc);
+        
+
+        marker_279df7c7535149a1be6ed95f52134659.bindPopup(popup_a34269d252394383afe4c9462d3df4a2)
+        ;
+
+        
+    
+    
+            marker_279df7c7535149a1be6ed95f52134659.bindTooltip(
+                `<div>
+                     Primary Health Care Center, Pataka, Athmallik, Odisha, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73aaf57de7da449db22a10c04c65edf6 = L.marker(
+                [20.650694, 84.631775],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_1a6a65c9c50f47adb9f2046895c1aef4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_73aaf57de7da449db22a10c04c65edf6.setIcon(icon_1a6a65c9c50f47adb9f2046895c1aef4);
+        
+    
+        var popup_ac5b58d1c5b44793b48fe0b8e33bbaec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d80f5130c9434b73b9c8f42c16f91c82 = $(`<div id="html_d80f5130c9434b73b9c8f42c16f91c82" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/jyotirmayee-medicine-store-pataka-athmallik-odisha-india-20910.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_ac5b58d1c5b44793b48fe0b8e33bbaec.setContent(html_d80f5130c9434b73b9c8f42c16f91c82);
+        
+
+        marker_73aaf57de7da449db22a10c04c65edf6.bindPopup(popup_ac5b58d1c5b44793b48fe0b8e33bbaec)
+        ;
+
+        
+    
+    
+            marker_73aaf57de7da449db22a10c04c65edf6.bindTooltip(
+                `<div>
+                     Jyotirmayee Medicine Store, Pataka, Athmallik, Odisha, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e0999d4e26c4cd5a7ea788379210c30 = L.marker(
+                [17.357861, 78.557442],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_fe5da1626e514fbabaf65dbd595ef823 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1e0999d4e26c4cd5a7ea788379210c30.setIcon(icon_fe5da1626e514fbabaf65dbd595ef823);
+        
+    
+        var popup_ee663e59e7c54cf491687c039c5a351e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd0b2b6f04264ca4a9b1c7614bfe0516 = $(`<div id="html_cd0b2b6f04264ca4a9b1c7614bfe0516" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/androbest-andrology-urology-center-sai-nagar-lb-nagar-hyderabad-telangana-india-20759.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_ee663e59e7c54cf491687c039c5a351e.setContent(html_cd0b2b6f04264ca4a9b1c7614bfe0516);
+        
+
+        marker_1e0999d4e26c4cd5a7ea788379210c30.bindPopup(popup_ee663e59e7c54cf491687c039c5a351e)
+        ;
+
+        
+    
+    
+            marker_1e0999d4e26c4cd5a7ea788379210c30.bindTooltip(
+                `<div>
+                     Androbest Andrology & Urology Center, Sai Nagar, LB Nagar, Hyderabad, Telangana, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_85a3f8295a9e4b6da2a76db255d23eae = L.marker(
+                [23.02557, 72.527458],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_369d8b7cb1a646d9a62b01f5f808204f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_85a3f8295a9e4b6da2a76db255d23eae.setIcon(icon_369d8b7cb1a646d9a62b01f5f808204f);
+        
+    
+        var popup_85f8e76d32ea4baaa49e50005b2fd7da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2129786730874a919289201061f44edc = $(`<div id="html_2129786730874a919289201061f44edc" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/adorn-cosmetic-clinic-ahmedabad-gujarat-india-20739.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_85f8e76d32ea4baaa49e50005b2fd7da.setContent(html_2129786730874a919289201061f44edc);
+        
+
+        marker_85a3f8295a9e4b6da2a76db255d23eae.bindPopup(popup_85f8e76d32ea4baaa49e50005b2fd7da)
+        ;
+
+        
+    
+    
+            marker_85a3f8295a9e4b6da2a76db255d23eae.bindTooltip(
+                `<div>
+                     ADORN Cosmetic Clinic, Ahmedabad, Gujarat, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_686c98e4975b4914bc1082de8f22301d = L.marker(
+                [13.030947, 80.171585],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_5bad658673d442af89587eb00d304120 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_686c98e4975b4914bc1082de8f22301d.setIcon(icon_5bad658673d442af89587eb00d304120);
+        
+    
+        var popup_b7a148a3c2aa4579aa6b4de3439cbc4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2852143064064190bb5b364bf61a1c2a = $(`<div id="html_2852143064064190bb5b364bf61a1c2a" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/vignesh-hospital-porur-ramapuram-chennai-tamil-nadu-india-20410.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_b7a148a3c2aa4579aa6b4de3439cbc4a.setContent(html_2852143064064190bb5b364bf61a1c2a);
+        
+
+        marker_686c98e4975b4914bc1082de8f22301d.bindPopup(popup_b7a148a3c2aa4579aa6b4de3439cbc4a)
+        ;
+
+        
+    
+    
+            marker_686c98e4975b4914bc1082de8f22301d.bindTooltip(
+                `<div>
+                     Vignesh Hospital, Porur, Ramapuram, Chennai, Tamil Nadu, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75f6b6c894f74a8c87368923d8002898 = L.marker(
+                [13.095658, 80.206116],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_c215c3696a62404fa3acef46099a941d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_75f6b6c894f74a8c87368923d8002898.setIcon(icon_c215c3696a62404fa3acef46099a941d);
+        
+    
+        var popup_f3d392a5fe994f78b42930dc7444dcd5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_daba32dd190546118597481e4872d4ff = $(`<div id="html_daba32dd190546118597481e4872d4ff" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/chennai-jayanth-acupuncture-hospital-anna-nagar-chennai-tamil-nadu-india-19808.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_f3d392a5fe994f78b42930dc7444dcd5.setContent(html_daba32dd190546118597481e4872d4ff);
+        
+
+        marker_75f6b6c894f74a8c87368923d8002898.bindPopup(popup_f3d392a5fe994f78b42930dc7444dcd5)
+        ;
+
+        
+    
+    
+            marker_75f6b6c894f74a8c87368923d8002898.bindTooltip(
+                `<div>
+                     Chennai Jayanth Acupuncture Hospital, Anna Nagar, Chennai, Tamil Nadu, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1bf3c9938f374615946cc420bc656be9 = L.marker(
+                [13.109593, 80.246666],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_eda379222c2b468ab396a6c3f01ad13f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1bf3c9938f374615946cc420bc656be9.setIcon(icon_eda379222c2b468ab396a6c3f01ad13f);
+        
+    
+        var popup_07c4beba21804519b22257ca06225cc7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_340516cb169b4f3084a26c1fa25ba354 = $(`<div id="html_340516cb169b4f3084a26c1fa25ba354" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/srinivas-priya-hospital-pvt-ltd-patel-road-perambur-chennai-india-19594.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_07c4beba21804519b22257ca06225cc7.setContent(html_340516cb169b4f3084a26c1fa25ba354);
+        
+
+        marker_1bf3c9938f374615946cc420bc656be9.bindPopup(popup_07c4beba21804519b22257ca06225cc7)
+        ;
+
+        
+    
+    
+            marker_1bf3c9938f374615946cc420bc656be9.bindTooltip(
+                `<div>
+                     Srinivas Priya Hospital Pvt Ltd, Patel Road, Perambur, Chennai, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ec5ef2848bf4debabfe83dd415bd6f4 = L.marker(
+                [20.457838, 85.871536],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_2c723a131ca347f194f58f003eeabae7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1ec5ef2848bf4debabfe83dd415bd6f4.setIcon(icon_2c723a131ca347f194f58f003eeabae7);
+        
+    
+        var popup_6af1a813f31f4772ab2959c5e686bf3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9fb38fd8e86b4c1fad5eae1e9e220070 = $(`<div id="html_9fb38fd8e86b4c1fad5eae1e9e220070" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/relax-hospital-cuttack-orrisa-odisha-india-18404.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_6af1a813f31f4772ab2959c5e686bf3f.setContent(html_9fb38fd8e86b4c1fad5eae1e9e220070);
+        
+
+        marker_1ec5ef2848bf4debabfe83dd415bd6f4.bindPopup(popup_6af1a813f31f4772ab2959c5e686bf3f)
+        ;
+
+        
+    
+    
+            marker_1ec5ef2848bf4debabfe83dd415bd6f4.bindTooltip(
+                `<div>
+                     RELAX Hospital, Cuttack, Orrisa, Odisha, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1704fbe0191e49939fd5340af30b58bf = L.marker(
+                [17.786711, 79.02697],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_5ca8a01c0622487da73c7a9b6657ca2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1704fbe0191e49939fd5340af30b58bf.setIcon(icon_5ca8a01c0622487da73c7a9b6657ca2d);
+        
+    
+        var popup_b011c873710d4743a479cdbcd33b1667 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efd74ec1dbf14cab92937751219c04c6 = $(`<div id="html_efd74ec1dbf14cab92937751219c04c6" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/governmental-hospital-bachannapet-telangana-india-17105.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_b011c873710d4743a479cdbcd33b1667.setContent(html_efd74ec1dbf14cab92937751219c04c6);
+        
+
+        marker_1704fbe0191e49939fd5340af30b58bf.bindPopup(popup_b011c873710d4743a479cdbcd33b1667)
+        ;
+
+        
+    
+    
+            marker_1704fbe0191e49939fd5340af30b58bf.bindTooltip(
+                `<div>
+                     Governmental Hospital, Bachannapet, Telangana, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8dc781e0d3984161b62c3b24e44940e9 = L.marker(
+                [11.578299, 78.753654],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_50c71ada69654d4aa8d70e7b5379a795 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_8dc781e0d3984161b62c3b24e44940e9.setIcon(icon_50c71ada69654d4aa8d70e7b5379a795);
+        
+    
+        var popup_482a744fe03948ec8d6d5d011f4eb9bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_039bda6d45184ebc872fe3640ad6918e = $(`<div id="html_039bda6d45184ebc872fe3640ad6918e" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/governmental-hospital-of-thalaivasal-thalaivasal-tamil-nadu-india-16932.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_482a744fe03948ec8d6d5d011f4eb9bb.setContent(html_039bda6d45184ebc872fe3640ad6918e);
+        
+
+        marker_8dc781e0d3984161b62c3b24e44940e9.bindPopup(popup_482a744fe03948ec8d6d5d011f4eb9bb)
+        ;
+
+        
+    
+    
+            marker_8dc781e0d3984161b62c3b24e44940e9.bindTooltip(
+                `<div>
+                     Governmental Hospital of Thalaivasal, Thalaivasal, Tamil Nadu, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d516934cc44420e8af2ec85066de016 = L.marker(
+                [27.597265, 78.045441],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_5e6802ad28194c3eb0191e1d1b5585b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_7d516934cc44420e8af2ec85066de016.setIcon(icon_5e6802ad28194c3eb0191e1d1b5585b8);
+        
+    
+        var popup_dba3b83cb3534f9c950fe81baecbbf95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_835f3b323f764eb5a0ea8e30d3dd7c3d = $(`<div id="html_835f3b323f764eb5a0ea8e30d3dd7c3d" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/dr-deepa-shama-s-deep-hospital-hathras-uttar-pradesh-india-15516.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_dba3b83cb3534f9c950fe81baecbbf95.setContent(html_835f3b323f764eb5a0ea8e30d3dd7c3d);
+        
+
+        marker_7d516934cc44420e8af2ec85066de016.bindPopup(popup_dba3b83cb3534f9c950fe81baecbbf95)
+        ;
+
+        
+    
+    
+            marker_7d516934cc44420e8af2ec85066de016.bindTooltip(
+                `<div>
+                     Dr deepa shama's DEEP Hospital, Hathras, Uttar Pradesh, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9af86e5a77064fc0b84a2e053356bf46 = L.marker(
+                [18.399286, 73.769058],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_4c3a329361cd4f9589089e5fdad7437f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9af86e5a77064fc0b84a2e053356bf46.setIcon(icon_4c3a329361cd4f9589089e5fdad7437f);
+        
+    
+        var popup_51c7b8984e5d45699ae14f62df6278bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b549d34a0124bf9845048bb758231b6 = $(`<div id="html_5b549d34a0124bf9845048bb758231b6" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/aark-foundation-donje-phata-pune-maharashtra-india-15381.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_51c7b8984e5d45699ae14f62df6278bd.setContent(html_5b549d34a0124bf9845048bb758231b6);
+        
+
+        marker_9af86e5a77064fc0b84a2e053356bf46.bindPopup(popup_51c7b8984e5d45699ae14f62df6278bd)
+        ;
+
+        
+    
+    
+            marker_9af86e5a77064fc0b84a2e053356bf46.bindTooltip(
+                `<div>
+                     Aark Foundation, Donje Phata, Pune, Maharashtra, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6cf8dae01371424ca80cf2636c027853 = L.marker(
+                [25.458599, 78.615517],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_035b50e1a3f9457cb8c55d0492e49e5f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_6cf8dae01371424ca80cf2636c027853.setIcon(icon_035b50e1a3f9457cb8c55d0492e49e5f);
+        
+    
+        var popup_f822bd73adb54039bd688b1a7a0295c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3493a5d6a1a4fafaab141bb77135e04 = $(`<div id="html_a3493a5d6a1a4fafaab141bb77135e04" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/sant-blood-bank-jhansi-uttar-pradesh-india-15202.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_f822bd73adb54039bd688b1a7a0295c2.setContent(html_a3493a5d6a1a4fafaab141bb77135e04);
+        
+
+        marker_6cf8dae01371424ca80cf2636c027853.bindPopup(popup_f822bd73adb54039bd688b1a7a0295c2)
+        ;
+
+        
+    
+    
+            marker_6cf8dae01371424ca80cf2636c027853.bindTooltip(
+                `<div>
+                     Sant Blood Bank, Jhansi, Uttar Pradesh, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_927992049e2043d6aaa381fec33d1430 = L.marker(
+                [19.22765, 72.840012],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_bf8f3d38aa6b4420ac88b8ebf91d14e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_927992049e2043d6aaa381fec33d1430.setIcon(icon_bf8f3d38aa6b4420ac88b8ebf91d14e4);
+        
+    
+        var popup_c9450d8f0e38463bb4de7d529af232fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bedec5cd2274db3aee7543326a8fd14 = $(`<div id="html_0bedec5cd2274db3aee7543326a8fd14" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/riddhi-siddhi-chs-borivali-west-mumbai-maharashtra-india-15092.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_c9450d8f0e38463bb4de7d529af232fc.setContent(html_0bedec5cd2274db3aee7543326a8fd14);
+        
+
+        marker_927992049e2043d6aaa381fec33d1430.bindPopup(popup_c9450d8f0e38463bb4de7d529af232fc)
+        ;
+
+        
+    
+    
+            marker_927992049e2043d6aaa381fec33d1430.bindTooltip(
+                `<div>
+                     Riddhi Siddhi CHS, Borivali West, Mumbai, Maharashtra, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d138c4f12384d3fa288972b5473acf9 = L.marker(
+                [25.766827, 81.414467],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_aab35b861b06450a8244927e7fae472e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0d138c4f12384d3fa288972b5473acf9.setIcon(icon_aab35b861b06450a8244927e7fae472e);
+        
+    
+        var popup_fcb6e509b99349e59692bb73be6b96b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48b4efaaa63e4662b0e52744c5cf1287 = $(`<div id="html_48b4efaaa63e4662b0e52744c5cf1287" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/maurya-eye-care-center-manikpur-uttar-pradesh-india-14923.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_fcb6e509b99349e59692bb73be6b96b5.setContent(html_48b4efaaa63e4662b0e52744c5cf1287);
+        
+
+        marker_0d138c4f12384d3fa288972b5473acf9.bindPopup(popup_fcb6e509b99349e59692bb73be6b96b5)
+        ;
+
+        
+    
+    
+            marker_0d138c4f12384d3fa288972b5473acf9.bindTooltip(
+                `<div>
+                     MAURYA Eye Care Center, Manikpur, Uttar Pradesh, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ec29a7cf238b491c97aad4f534a28b83 = L.marker(
+                [28.386002, 77.307678],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_1b3d9d47847f4aa69f613a63887f8cb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ec29a7cf238b491c97aad4f534a28b83.setIcon(icon_1b3d9d47847f4aa69f613a63887f8cb0);
+        
+    
+        var popup_55bec8d1b94547c7995b1ac2b51b3b62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51a498d8b9f547e1b95a790b486e0b79 = $(`<div id="html_51a498d8b9f547e1b95a790b486e0b79" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/dental-panacea-faridabad-hayrana-india-14874.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_55bec8d1b94547c7995b1ac2b51b3b62.setContent(html_51a498d8b9f547e1b95a790b486e0b79);
+        
+
+        marker_ec29a7cf238b491c97aad4f534a28b83.bindPopup(popup_55bec8d1b94547c7995b1ac2b51b3b62)
+        ;
+
+        
+    
+    
+            marker_ec29a7cf238b491c97aad4f534a28b83.bindTooltip(
+                `<div>
+                     Dental Panacea, Faridabad, Hayrana, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de8255d5d9a1489f8018cdce14656920 = L.marker(
+                [10.857012, 78.691162],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_b6d58c119c61446aa3ca58ec85b2fd19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_de8255d5d9a1489f8018cdce14656920.setIcon(icon_b6d58c119c61446aa3ca58ec85b2fd19);
+        
+    
+        var popup_e8ff8cddc8e44e8984c49c1d3cf7b59d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ceaf410c71064d24ad335bf6591f7c95 = $(`<div id="html_ceaf410c71064d24ad335bf6591f7c95" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/srirangam-government-hospital-tiruchirappalli-tamil-nadu-india-14832.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_e8ff8cddc8e44e8984c49c1d3cf7b59d.setContent(html_ceaf410c71064d24ad335bf6591f7c95);
+        
+
+        marker_de8255d5d9a1489f8018cdce14656920.bindPopup(popup_e8ff8cddc8e44e8984c49c1d3cf7b59d)
+        ;
+
+        
+    
+    
+            marker_de8255d5d9a1489f8018cdce14656920.bindTooltip(
+                `<div>
+                     Srirangam Government Hospital, Tiruchirappalli, Tamil Nadu, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bca05626497f4db994dc99f3ef82f43d = L.marker(
+                [11.929894, 79.824852],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_f3a83fe26ef54401b33c5fbc4c793644 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_bca05626497f4db994dc99f3ef82f43d.setIcon(icon_f3a83fe26ef54401b33c5fbc4c793644);
+        
+    
+        var popup_7f72b02321f74524a5bc95c6dba7d81b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41075400bbfd4e998b59627dccce3335 = $(`<div id="html_41075400bbfd4e998b59627dccce3335" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/nithya-homoeo-pharmacy-puducherry-india-14312.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_7f72b02321f74524a5bc95c6dba7d81b.setContent(html_41075400bbfd4e998b59627dccce3335);
+        
+
+        marker_bca05626497f4db994dc99f3ef82f43d.bindPopup(popup_7f72b02321f74524a5bc95c6dba7d81b)
+        ;
+
+        
+    
+    
+            marker_bca05626497f4db994dc99f3ef82f43d.bindTooltip(
+                `<div>
+                     Nithya Homoeo Pharmacy, Puducherry, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a712dd58f2041de809d25f018f020c1 = L.marker(
+                [24.184324, 92.533638],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_63508a02c5df42d4a232e3edbad601f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_7a712dd58f2041de809d25f018f020c1.setIcon(icon_63508a02c5df42d4a232e3edbad601f0);
+        
+    
+        var popup_0c87872e385942cb825d9aad5c367baa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b89cb8f9e96442dea76d31bdc146a5fc = $(`<div id="html_b89cb8f9e96442dea76d31bdc146a5fc" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/bairabi-hospital-bairabi-mizoram-india-14241.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_0c87872e385942cb825d9aad5c367baa.setContent(html_b89cb8f9e96442dea76d31bdc146a5fc);
+        
+
+        marker_7a712dd58f2041de809d25f018f020c1.bindPopup(popup_0c87872e385942cb825d9aad5c367baa)
+        ;
+
+        
+    
+    
+            marker_7a712dd58f2041de809d25f018f020c1.bindTooltip(
+                `<div>
+                     Bairabi hospital, Bairabi, Mizoram, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea36f229401d4a43831e01e5e9f1ce74 = L.marker(
+                [24.209656, 92.679642],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_931f0fb8a1464d19a6a6c058518c8aaf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ea36f229401d4a43831e01e5e9f1ce74.setIcon(icon_931f0fb8a1464d19a6a6c058518c8aaf);
+        
+    
+        var popup_f85946661c3c4a9ca385658fc4b51395 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f08debc71f2a47e0a88581fcdfba4ed7 = $(`<div id="html_f08debc71f2a47e0a88581fcdfba4ed7" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/khuangpuilam-clinic-kolasib-mizoram-india-14224.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_f85946661c3c4a9ca385658fc4b51395.setContent(html_f08debc71f2a47e0a88581fcdfba4ed7);
+        
+
+        marker_ea36f229401d4a43831e01e5e9f1ce74.bindPopup(popup_f85946661c3c4a9ca385658fc4b51395)
+        ;
+
+        
+    
+    
+            marker_ea36f229401d4a43831e01e5e9f1ce74.bindTooltip(
+                `<div>
+                     Khuangpuilam Clinic, Kolasib, Mizoram, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5876691a4d34e53ae73673c18435035 = L.marker(
+                [18.457527, 73.867668],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_c22ba36530d142ebb288354574509813 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_c5876691a4d34e53ae73673c18435035.setIcon(icon_c22ba36530d142ebb288354574509813);
+        
+    
+        var popup_3a55920425824c54a262c9ee368789c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca4074258ba644bc9451372fa888b44a = $(`<div id="html_ca4074258ba644bc9451372fa888b44a" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/nityanand-hospital-katraj-pune-maharashtra-india-13947.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_3a55920425824c54a262c9ee368789c4.setContent(html_ca4074258ba644bc9451372fa888b44a);
+        
+
+        marker_c5876691a4d34e53ae73673c18435035.bindPopup(popup_3a55920425824c54a262c9ee368789c4)
+        ;
+
+        
+    
+    
+            marker_c5876691a4d34e53ae73673c18435035.bindTooltip(
+                `<div>
+                     Nityanand Hospital, Katraj, Pune, Maharashtra, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_efca9b7c9ccd431c89d907aee95d3950 = L.marker(
+                [26.001802, 92.848373],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_2e2704abdb2647048c3f8ab6cf48ff78 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_efca9b7c9ccd431c89d907aee95d3950.setIcon(icon_2e2704abdb2647048c3f8ab6cf48ff78);
+        
+    
+        var popup_93a0127b6d0147038d7e8239f25f9239 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e0aaf2b1d1a40619b0cbc125be5d543 = $(`<div id="html_7e0aaf2b1d1a40619b0cbc125be5d543" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/hojai-civil-hospital-hojai-assam-india-13900.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_93a0127b6d0147038d7e8239f25f9239.setContent(html_7e0aaf2b1d1a40619b0cbc125be5d543);
+        
+
+        marker_efca9b7c9ccd431c89d907aee95d3950.bindPopup(popup_93a0127b6d0147038d7e8239f25f9239)
+        ;
+
+        
+    
+    
+            marker_efca9b7c9ccd431c89d907aee95d3950.bindTooltip(
+                `<div>
+                     Hojai Civil Hospital, Hojai, Assam, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd727f8c5126434c85b5d94472726ad7 = L.marker(
+                [21.216276, 81.323608],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_67430ccacc104b1e940d23016a5890e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_cd727f8c5126434c85b5d94472726ad7.setIcon(icon_67430ccacc104b1e940d23016a5890e2);
+        
+    
+        var popup_298ce747f461407b84c12ba8a304a62e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f00b7af8f42f42ea9e0a204aacab92a5 = $(`<div id="html_f00b7af8f42f42ea9e0a204aacab92a5" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/apollo-bsr-hospital-bhilai-nagar-chhattisgarh-india-13883.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_298ce747f461407b84c12ba8a304a62e.setContent(html_f00b7af8f42f42ea9e0a204aacab92a5);
+        
+
+        marker_cd727f8c5126434c85b5d94472726ad7.bindPopup(popup_298ce747f461407b84c12ba8a304a62e)
+        ;
+
+        
+    
+    
+            marker_cd727f8c5126434c85b5d94472726ad7.bindTooltip(
+                `<div>
+                     Apollo BSR Hospital, Bhilai Nagar, Chhattisgarh, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a5821d60040491e8045ea03f46552ee = L.marker(
+                [12.99609, 77.569672],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_4e09edad2dbb4d57b5e657c8b28455b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0a5821d60040491e8045ea03f46552ee.setIcon(icon_4e09edad2dbb4d57b5e657c8b28455b4);
+        
+    
+        var popup_fb7b2343ba6946e18164015b3c7a0dfb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1a7ff82a1a24509ad1c8987b27d7976 = $(`<div id="html_d1a7ff82a1a24509ad1c8987b27d7976" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/usha-vision-care-srirampura-bengaluru-karnataka-india-13736.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_fb7b2343ba6946e18164015b3c7a0dfb.setContent(html_d1a7ff82a1a24509ad1c8987b27d7976);
+        
+
+        marker_0a5821d60040491e8045ea03f46552ee.bindPopup(popup_fb7b2343ba6946e18164015b3c7a0dfb)
+        ;
+
+        
+    
+    
+            marker_0a5821d60040491e8045ea03f46552ee.bindTooltip(
+                `<div>
+                     Usha Vision Care, Srirampura, Bengaluru, Karnataka, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6916d1b0a9324b7a9030ff68c28f371e = L.marker(
+                [28.36718, 79.430153],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_7be7b5eb97e84bda812444220cf7f53d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_6916d1b0a9324b7a9030ff68c28f371e.setIcon(icon_7be7b5eb97e84bda812444220cf7f53d);
+        
+    
+        var popup_b5864e81d69f40d99609fd9a36b2f7f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3f9ecd983554b5dba6e90d2c2db7a77 = $(`<div id="html_e3f9ecd983554b5dba6e90d2c2db7a77" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/keshav-madhav-blood-bank-bareilly-uttar-pradesh-india-12786.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_b5864e81d69f40d99609fd9a36b2f7f7.setContent(html_e3f9ecd983554b5dba6e90d2c2db7a77);
+        
+
+        marker_6916d1b0a9324b7a9030ff68c28f371e.bindPopup(popup_b5864e81d69f40d99609fd9a36b2f7f7)
+        ;
+
+        
+    
+    
+            marker_6916d1b0a9324b7a9030ff68c28f371e.bindTooltip(
+                `<div>
+                     Keshav Madhav Blood Bank, Bareilly, Uttar Pradesh, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_90dea3e3b57340c3b29af0e85471bcf5 = L.marker(
+                [24.55899, 73.722801],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_1dbc968aca444b0aa14dc2ca7e6ce87b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_90dea3e3b57340c3b29af0e85471bcf5.setIcon(icon_1dbc968aca444b0aa14dc2ca7e6ce87b);
+        
+    
+        var popup_2d98ce80746e4abd8be170daf3410c89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15d17aa3e021407bb6a57bb9c67f18ef = $(`<div id="html_15d17aa3e021407bb6a57bb9c67f18ef" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/mukta-dental-clinic-shahid-bhagat-singh-nagar-rajasthan-india-12754.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_2d98ce80746e4abd8be170daf3410c89.setContent(html_15d17aa3e021407bb6a57bb9c67f18ef);
+        
+
+        marker_90dea3e3b57340c3b29af0e85471bcf5.bindPopup(popup_2d98ce80746e4abd8be170daf3410c89)
+        ;
+
+        
+    
+    
+            marker_90dea3e3b57340c3b29af0e85471bcf5.bindTooltip(
+                `<div>
+                     Mukta Dental Clinic, Shahid Bhagat Singh Nagar, Rajasthan, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c90e5c87104542d4b654359c44bf458b = L.marker(
+                [18.524338, 73.843887],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_0abe41f52f4e4165bb4de383a8b3a9fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_c90e5c87104542d4b654359c44bf458b.setIcon(icon_0abe41f52f4e4165bb4de383a8b3a9fc);
+        
+    
+        var popup_48d35d22e8554f25bb1be3540eb5f032 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f074b1220c85413eb18ae86584e9daf2 = $(`<div id="html_f074b1220c85413eb18ae86584e9daf2" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/mjm-hospital-shivajinagar-pune-maharashtra-india-12571.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_48d35d22e8554f25bb1be3540eb5f032.setContent(html_f074b1220c85413eb18ae86584e9daf2);
+        
+
+        marker_c90e5c87104542d4b654359c44bf458b.bindPopup(popup_48d35d22e8554f25bb1be3540eb5f032)
+        ;
+
+        
+    
+    
+            marker_c90e5c87104542d4b654359c44bf458b.bindTooltip(
+                `<div>
+                     MJM Hospital, Shivajinagar, Pune, Maharashtra, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b42ae90957c2495eb559baf781c99733 = L.marker(
+                [26.940351, 75.769493],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_eade043eee924dad9a104b6a149f4553 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b42ae90957c2495eb559baf781c99733.setIcon(icon_eade043eee924dad9a104b6a149f4553);
+        
+    
+        var popup_df57fc52bcaa4900b4bf56d3aa0c56e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d82a86c4918495eb73054596b16a542 = $(`<div id="html_8d82a86c4918495eb73054596b16a542" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/sarthak-manav-kusthashram-jhotwara-jaipur-rajasthan-india-12521.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_df57fc52bcaa4900b4bf56d3aa0c56e3.setContent(html_8d82a86c4918495eb73054596b16a542);
+        
+
+        marker_b42ae90957c2495eb559baf781c99733.bindPopup(popup_df57fc52bcaa4900b4bf56d3aa0c56e3)
+        ;
+
+        
+    
+    
+            marker_b42ae90957c2495eb559baf781c99733.bindTooltip(
+                `<div>
+                     Sarthak Manav Kusthashram, Jhotwara, Jaipur, Rajasthan, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7485ecb6aebb442a8e50567511cd9149 = L.marker(
+                [26.889633, 75.839554],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_5add555b50fd4dd8ad6dd51aa932cabd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_7485ecb6aebb442a8e50567511cd9149.setIcon(icon_5add555b50fd4dd8ad6dd51aa932cabd);
+        
+    
+        var popup_f2007ed70a5d49d8b4416fdee2491238 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05a1544d922b4732af26f8cdf8c73e97 = $(`<div id="html_05a1544d922b4732af26f8cdf8c73e97" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/janta-clinic-sector-3-jaipur-rajasthan-india-12520.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_f2007ed70a5d49d8b4416fdee2491238.setContent(html_05a1544d922b4732af26f8cdf8c73e97);
+        
+
+        marker_7485ecb6aebb442a8e50567511cd9149.bindPopup(popup_f2007ed70a5d49d8b4416fdee2491238)
+        ;
+
+        
+    
+    
+            marker_7485ecb6aebb442a8e50567511cd9149.bindTooltip(
+                `<div>
+                     Janta Clinic, Sector 3, Jaipur, Rajasthan, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a00b2cab988e4460860185bc7ee8145f = L.marker(
+                [22.179298, 75.586754],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_97c45dee622c426692303f7e720b581e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_a00b2cab988e4460860185bc7ee8145f.setIcon(icon_97c45dee622c426692303f7e720b581e);
+        
+    
+        var popup_e58ee4c045c64e7e81fa7999cc4805a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40deee9f4b9b4c45870fd960e668ec71 = $(`<div id="html_40deee9f4b9b4c45870fd960e668ec71" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/pashu-hospital-maheshwar-maheshwar-madhya-pradesh-india-12382.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_e58ee4c045c64e7e81fa7999cc4805a8.setContent(html_40deee9f4b9b4c45870fd960e668ec71);
+        
+
+        marker_a00b2cab988e4460860185bc7ee8145f.bindPopup(popup_e58ee4c045c64e7e81fa7999cc4805a8)
+        ;
+
+        
+    
+    
+            marker_a00b2cab988e4460860185bc7ee8145f.bindTooltip(
+                `<div>
+                     Pashu Hospital Maheshwar, Maheshwar, Madhya Pradesh, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02380ae94c544d1bbef78ca5b431780e = L.marker(
+                [12.90795, 77.565063],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_c5dc80b2b8ff4bf8bd4080c012d907ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_02380ae94c544d1bbef78ca5b431780e.setIcon(icon_c5dc80b2b8ff4bf8bd4080c012d907ec);
+        
+    
+        var popup_26b0eaee8d384ee2826529fd477597d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d5e6ffb2e1d44b8ad41c8a039f8d9e9 = $(`<div id="html_0d5e6ffb2e1d44b8ad41c8a039f8d9e9" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/sagar-hospital-kumaraswamy-layout-bangalore-karnataka-india-12187.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_26b0eaee8d384ee2826529fd477597d5.setContent(html_0d5e6ffb2e1d44b8ad41c8a039f8d9e9);
+        
+
+        marker_02380ae94c544d1bbef78ca5b431780e.bindPopup(popup_26b0eaee8d384ee2826529fd477597d5)
+        ;
+
+        
+    
+    
+            marker_02380ae94c544d1bbef78ca5b431780e.bindTooltip(
+                `<div>
+                     Sagar Hospital, KumaraSwamy layout, Bangalore, Karnataka, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_646a75d184524208bdac6fa2296a0495 = L.marker(
+                [15.437003, 75.01506],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_fd188ab74cf749b9937d7c0dd9db571b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_646a75d184524208bdac6fa2296a0495.setIcon(icon_fd188ab74cf749b9937d7c0dd9db571b);
+        
+    
+        var popup_a29bb5ff02364adcbeb1ccd1a945fd7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83fbfdc884014f12a3d1566b4ecddec1 = $(`<div id="html_83fbfdc884014f12a3d1566b4ecddec1" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/dr-shruthi-and-dr-rajesh-patil-rajatagiri-dharwad-karnataka-india-11800.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_a29bb5ff02364adcbeb1ccd1a945fd7f.setContent(html_83fbfdc884014f12a3d1566b4ecddec1);
+        
+
+        marker_646a75d184524208bdac6fa2296a0495.bindPopup(popup_a29bb5ff02364adcbeb1ccd1a945fd7f)
+        ;
+
+        
+    
+    
+            marker_646a75d184524208bdac6fa2296a0495.bindTooltip(
+                `<div>
+                     Dr.Shruthi and Dr.Rajesh Patil, Rajatagiri, Dharwad, Karnataka, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b92eaac8504342bfa24eb774c37baf7f = L.marker(
+                [20.933424, 77.761139],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_a5f9f4460b534836a2a5b6e8bb234fb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b92eaac8504342bfa24eb774c37baf7f.setIcon(icon_a5f9f4460b534836a2a5b6e8bb234fb9);
+        
+    
+        var popup_0e09db060a96431697b63b87c72ed29e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cae790b3d5a42e2888924aff7e5fd1e = $(`<div id="html_8cae790b3d5a42e2888924aff7e5fd1e" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/uhp-district-general-hospital-armavti-maharashtra-india-11704.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_0e09db060a96431697b63b87c72ed29e.setContent(html_8cae790b3d5a42e2888924aff7e5fd1e);
+        
+
+        marker_b92eaac8504342bfa24eb774c37baf7f.bindPopup(popup_0e09db060a96431697b63b87c72ed29e)
+        ;
+
+        
+    
+    
+            marker_b92eaac8504342bfa24eb774c37baf7f.bindTooltip(
+                `<div>
+                     UHP District General Hospital, Armavti, Maharashtra, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_993831c3af86482ba36207ee9321a64d = L.marker(
+                [19.025806, 73.04155],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_e5a227ee4e314a439f553a2ef05aeb1a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_993831c3af86482ba36207ee9321a64d.setIcon(icon_e5a227ee4e314a439f553a2ef05aeb1a);
+        
+    
+        var popup_b2902a503bb440d5862f2e0f4c536eba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d605ae91c674f33b312279affb23017 = $(`<div id="html_7d605ae91c674f33b312279affb23017" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/mgm-hospital-cbd-belapur-mumbai-maharashtra-india-11410.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_b2902a503bb440d5862f2e0f4c536eba.setContent(html_7d605ae91c674f33b312279affb23017);
+        
+
+        marker_993831c3af86482ba36207ee9321a64d.bindPopup(popup_b2902a503bb440d5862f2e0f4c536eba)
+        ;
+
+        
+    
+    
+            marker_993831c3af86482ba36207ee9321a64d.bindTooltip(
+                `<div>
+                     MGM Hospital, CBD Belapur, Mumbai, Maharashtra, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_374b1799940348738f64b8cfe03337a4 = L.marker(
+                [12.923236, 77.518456],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_e6800ea075394132940ba920c7360cfb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_374b1799940348738f64b8cfe03337a4.setIcon(icon_e6800ea075394132940ba920c7360cfb);
+        
+    
+        var popup_f95932da07134aec963ad7a7361b6a9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd87ff020585461cb9a4b03f60d3fd6d = $(`<div id="html_cd87ff020585461cb9a4b03f60d3fd6d" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/pramathana-dental-care-ideal-homes-twp-bengaluru-karnataka-india-10952.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_f95932da07134aec963ad7a7361b6a9c.setContent(html_cd87ff020585461cb9a4b03f60d3fd6d);
+        
+
+        marker_374b1799940348738f64b8cfe03337a4.bindPopup(popup_f95932da07134aec963ad7a7361b6a9c)
+        ;
+
+        
+    
+    
+            marker_374b1799940348738f64b8cfe03337a4.bindTooltip(
+                `<div>
+                     Pramathana Dental Care, Ideal Homes TWP, Bengaluru, Karnataka, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd6fe7b75f5d428e942f742816d4579b = L.marker(
+                [18.970409, 76.753838],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_d2896865d56e4816b65de94272bc174f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_fd6fe7b75f5d428e942f742816d4579b.setIcon(icon_d2896865d56e4816b65de94272bc174f);
+        
+    
+        var popup_3c14a68119134197a9198a0ce6849202 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffbc5aeba3154d05b9418bf5ba4f102e = $(`<div id="html_ffbc5aeba3154d05b9418bf5ba4f102e" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/joshi-hospital-dabhade-pune-maharashtra-india-10897.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_3c14a68119134197a9198a0ce6849202.setContent(html_ffbc5aeba3154d05b9418bf5ba4f102e);
+        
+
+        marker_fd6fe7b75f5d428e942f742816d4579b.bindPopup(popup_3c14a68119134197a9198a0ce6849202)
+        ;
+
+        
+    
+    
+            marker_fd6fe7b75f5d428e942f742816d4579b.bindTooltip(
+                `<div>
+                     Joshi Hospital, Dabhade, Pune, Maharashtra, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2a8f9d1f53f04966842a55ced3394dfe = L.marker(
+                [16.413506, 74.050575],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_54bc8620e427460ea7438ee4d0a573b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_2a8f9d1f53f04966842a55ced3394dfe.setIcon(icon_54bc8620e427460ea7438ee4d0a573b6);
+        
+    
+        var popup_382bd8a7442f426d8311c4d324adb81b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8b0479c535a4e139e3a270e6a8782e5 = $(`<div id="html_d8b0479c535a4e139e3a270e6a8782e5" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/rural-hospital-solankur-solankur-maharashtra-india-10566.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_382bd8a7442f426d8311c4d324adb81b.setContent(html_d8b0479c535a4e139e3a270e6a8782e5);
+        
+
+        marker_2a8f9d1f53f04966842a55ced3394dfe.bindPopup(popup_382bd8a7442f426d8311c4d324adb81b)
+        ;
+
+        
+    
+    
+            marker_2a8f9d1f53f04966842a55ced3394dfe.bindTooltip(
+                `<div>
+                     Rural Hospital Solankur, Solankur, Maharashtra, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d07088db33b4250b6ccb6e548179693 = L.marker(
+                [31.697235, 75.788933],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_8584130b891d4375a194dfd6fcd0a66a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1d07088db33b4250b6ccb6e548179693.setIcon(icon_8584130b891d4375a194dfd6fcd0a66a);
+        
+    
+        var popup_0532c7d85f014961ab6ce30de0a927f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18f0d99aa04f4ef8b1aa614d6b17c24c = $(`<div id="html_18f0d99aa04f4ef8b1aa614d6b17c24c" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/32-gems-dental-care-dosarka-punjab-india-10551.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_0532c7d85f014961ab6ce30de0a927f4.setContent(html_18f0d99aa04f4ef8b1aa614d6b17c24c);
+        
+
+        marker_1d07088db33b4250b6ccb6e548179693.bindPopup(popup_0532c7d85f014961ab6ce30de0a927f4)
+        ;
+
+        
+    
+    
+            marker_1d07088db33b4250b6ccb6e548179693.bindTooltip(
+                `<div>
+                     32 Gems Dental Care, Dosarka, Punjab, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0f23cca380b0466c93ca3ba632333692 = L.marker(
+                [21.323082, 70.441826],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_21d8db64fb814384b1cca00373ad3395 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0f23cca380b0466c93ca3ba632333692.setIcon(icon_21d8db64fb814384b1cca00373ad3395);
+        
+    
+        var popup_b67fdcc3d9e44c098c6f1acadc81c30a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d57db4fd5d75425682f7cc561a47c82a = $(`<div id="html_d57db4fd5d75425682f7cc561a47c82a" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/subham-hospital-mendarda-sardarbag-junagadh-gujarat-india-9210.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_b67fdcc3d9e44c098c6f1acadc81c30a.setContent(html_d57db4fd5d75425682f7cc561a47c82a);
+        
+
+        marker_0f23cca380b0466c93ca3ba632333692.bindPopup(popup_b67fdcc3d9e44c098c6f1acadc81c30a)
+        ;
+
+        
+    
+    
+            marker_0f23cca380b0466c93ca3ba632333692.bindTooltip(
+                `<div>
+                     Subham hospital, Mendarda, Sardarbag, Junagadh, Gujarat, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8ac812da65624482a067f7e405dbbe97 = L.marker(
+                [19.252562, 72.980057],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_3c4a1f41ec7143839223202eeb46d051 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_8ac812da65624482a067f7e405dbbe97.setIcon(icon_3c4a1f41ec7143839223202eeb46d051);
+        
+    
+        var popup_cb30ca59de0349ef96544349f3e5ee65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab7dd89412474e1597af14f5306cd600 = $(`<div id="html_ab7dd89412474e1597af14f5306cd600" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/hiranandani-hospital-thane-west-mumbai-maharashtra-8750.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_cb30ca59de0349ef96544349f3e5ee65.setContent(html_ab7dd89412474e1597af14f5306cd600);
+        
+
+        marker_8ac812da65624482a067f7e405dbbe97.bindPopup(popup_cb30ca59de0349ef96544349f3e5ee65)
+        ;
+
+        
+    
+    
+            marker_8ac812da65624482a067f7e405dbbe97.bindTooltip(
+                `<div>
+                     Hiranandani Hospital, Thane West, Mumbai, Maharashtra
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5224fb9e06ed4f44ab1c6dcddd3a0dd7 = L.marker(
+                [22.758648, 86.201385],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_5bdafea9a3d14958ba8bc67d91768f26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_5224fb9e06ed4f44ab1c6dcddd3a0dd7.setIcon(icon_5bdafea9a3d14958ba8bc67d91768f26);
+        
+    
+        var popup_ef90371c7f694f52a82731be9ed4742b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d52cc7622b944fb09d15a8956dcac8f7 = $(`<div id="html_d52cc7622b944fb09d15a8956dcac8f7" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/sadar-hospital-east-singhbhum-tata-nagar-khasmahal-jugsalai-bagbera-jharkhand-india-8288.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_ef90371c7f694f52a82731be9ed4742b.setContent(html_d52cc7622b944fb09d15a8956dcac8f7);
+        
+
+        marker_5224fb9e06ed4f44ab1c6dcddd3a0dd7.bindPopup(popup_ef90371c7f694f52a82731be9ed4742b)
+        ;
+
+        
+    
+    
+            marker_5224fb9e06ed4f44ab1c6dcddd3a0dd7.bindTooltip(
+                `<div>
+                     Sadar Hospital East Singhbhum, Tata Nagar, Khasmahal, Jugsalai, Bagbera, Jharkhand, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5bd383eed62847068c480c1869712366 = L.marker(
+                [19.092508, 74.749596],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_7b919cb36e614c5ebc61a36a5fba1f4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_5bd383eed62847068c480c1869712366.setIcon(icon_7b919cb36e614c5ebc61a36a5fba1f4c);
+        
+    
+        var popup_42df207f30e8496c9f3d87cbbd04b73d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a15cdd393f5f4ba8a33e5b89dcc56dc6 = $(`<div id="html_a15cdd393f5f4ba8a33e5b89dcc56dc6" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/fairbank-james-friendship-memorial-hospital-ahmednagar-maharashtra-india-8266.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_42df207f30e8496c9f3d87cbbd04b73d.setContent(html_a15cdd393f5f4ba8a33e5b89dcc56dc6);
+        
+
+        marker_5bd383eed62847068c480c1869712366.bindPopup(popup_42df207f30e8496c9f3d87cbbd04b73d)
+        ;
+
+        
+    
+    
+            marker_5bd383eed62847068c480c1869712366.bindTooltip(
+                `<div>
+                     Fairbank James Friendship memorial Hospital, Ahmednagar, Maharashtra, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_557fbe95224a4455946a629d8ef4e022 = L.marker(
+                [12.906529, 77.585831],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_2f9ed5bd75c24925bb5aab0bb8c74f41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_557fbe95224a4455946a629d8ef4e022.setIcon(icon_2f9ed5bd75c24925bb5aab0bb8c74f41);
+        
+    
+        var popup_423e3f0969b94b399a9ebac443561779 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67ecf096312947adb43ca0c811df8c99 = $(`<div id="html_67ecf096312947adb43ca0c811df8c99" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/medicare-skin-cosmetic-clinic-jayanagar-bangalore-india-8129.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_423e3f0969b94b399a9ebac443561779.setContent(html_67ecf096312947adb43ca0c811df8c99);
+        
+
+        marker_557fbe95224a4455946a629d8ef4e022.bindPopup(popup_423e3f0969b94b399a9ebac443561779)
+        ;
+
+        
+    
+    
+            marker_557fbe95224a4455946a629d8ef4e022.bindTooltip(
+                `<div>
+                     Medicare Skin & Cosmetic Clinic, Jayanagar, Bangalore, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f0021c300d741e6a3eb9feb422ea9b7 = L.marker(
+                [13.006752, 77.561737],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_c78def0af6574735848e8633c18ffc08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_5f0021c300d741e6a3eb9feb422ea9b7.setIcon(icon_c78def0af6574735848e8633c18ffc08);
+        
+    
+        var popup_3c9bc3aa04e04b769bf85a7be9c183b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a67cd2c3980d4281a98d7872b82e6cb9 = $(`<div id="html_a67cd2c3980d4281a98d7872b82e6cb9" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/banglore-hospital-bengaluru-karnataka-india-6241.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_3c9bc3aa04e04b769bf85a7be9c183b9.setContent(html_a67cd2c3980d4281a98d7872b82e6cb9);
+        
+
+        marker_5f0021c300d741e6a3eb9feb422ea9b7.bindPopup(popup_3c9bc3aa04e04b769bf85a7be9c183b9)
+        ;
+
+        
+    
+    
+            marker_5f0021c300d741e6a3eb9feb422ea9b7.bindTooltip(
+                `<div>
+                     Banglore Hospital, Bengaluru, Karnataka, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2af566605e1b4e4a865876c331747b11 = L.marker(
+                [30.705317, 76.725052],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_f8519d9faaf347b1bfe2d3513a646c98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_2af566605e1b4e4a865876c331747b11.setIcon(icon_f8519d9faaf347b1bfe2d3513a646c98);
+        
+    
+        var popup_9f46e90beb3f413396e13452ff9bc1d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e63b2e7bf5947a7b6ca52e729f82378 = $(`<div id="html_3e63b2e7bf5947a7b6ca52e729f82378" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/indus-hospital-sector-60-punjab-india-6221.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_9f46e90beb3f413396e13452ff9bc1d0.setContent(html_3e63b2e7bf5947a7b6ca52e729f82378);
+        
+
+        marker_2af566605e1b4e4a865876c331747b11.bindPopup(popup_9f46e90beb3f413396e13452ff9bc1d0)
+        ;
+
+        
+    
+    
+            marker_2af566605e1b4e4a865876c331747b11.bindTooltip(
+                `<div>
+                     Indus Hospital, Sector 60, Punjab, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac16716450194d40b288f80f7dfe2df1 = L.marker(
+                [25.379194, 81.877068],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_1aa447534ed9406594e112c6f67c424a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ac16716450194d40b288f80f7dfe2df1.setIcon(icon_1aa447534ed9406594e112c6f67c424a);
+        
+    
+        var popup_e8aff95e06ff4b31818f9dd17a932966 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8dd6354718c4456480061a9f777c7071 = $(`<div id="html_8dd6354718c4456480061a9f777c7071" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/naini-allahabad-uttar-pradesh-india-5157.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_e8aff95e06ff4b31818f9dd17a932966.setContent(html_8dd6354718c4456480061a9f777c7071);
+        
+
+        marker_ac16716450194d40b288f80f7dfe2df1.bindPopup(popup_e8aff95e06ff4b31818f9dd17a932966)
+        ;
+
+        
+    
+    
+            marker_ac16716450194d40b288f80f7dfe2df1.bindTooltip(
+                `<div>
+                     Naini, Allahabad, Uttar Pradesh, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06b31226b0eb417090762bb22e479d7e = L.marker(
+                [25.473034, 81.878357],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_e11fe2bcdee6471c9edb767545948528 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_06b31226b0eb417090762bb22e479d7e.setIcon(icon_e11fe2bcdee6471c9edb767545948528);
+        
+    
+        var popup_71292241b71c4a7fb57f9609a654911d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97433c16622e414195416a5c702989e3 = $(`<div id="html_97433c16622e414195416a5c702989e3" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/allahabad-uttar-pradesh-india-2945.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_71292241b71c4a7fb57f9609a654911d.setContent(html_97433c16622e414195416a5c702989e3);
+        
+
+        marker_06b31226b0eb417090762bb22e479d7e.bindPopup(popup_71292241b71c4a7fb57f9609a654911d)
+        ;
+
+        
+    
+    
+            marker_06b31226b0eb417090762bb22e479d7e.bindTooltip(
+                `<div>
+                     Allahabad, Uttar Pradesh, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d40b6dd27f404a3cbd90277381a1eb2e = L.marker(
+                [30.3167, 78.099998],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_df229fcc6e70449c8ae75fea5edb4237 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_d40b6dd27f404a3cbd90277381a1eb2e.setIcon(icon_df229fcc6e70449c8ae75fea5edb4237);
+        
+    
+        var popup_0b2306e4d01e4275b4aa56d1154ea9ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64331e81ebd54f0c8870dbcf97c88156 = $(`<div id="html_64331e81ebd54f0c8870dbcf97c88156" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/raipur-uttarakhand-india-1121.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_0b2306e4d01e4275b4aa56d1154ea9ae.setContent(html_64331e81ebd54f0c8870dbcf97c88156);
+        
+
+        marker_d40b6dd27f404a3cbd90277381a1eb2e.bindPopup(popup_0b2306e4d01e4275b4aa56d1154ea9ae)
+        ;
+
+        
+    
+    
+            marker_d40b6dd27f404a3cbd90277381a1eb2e.bindTooltip(
+                `<div>
+                     Raipur, Uttarakhand, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f94da06c85f467da275116dc194428b = L.marker(
+                [9.393924, 76.578423],
+                {}
+            ).addTo(map_fe7b1f96c0c44e908681958913c316c3);
+        
+    
+            var icon_3329fe8274d3490c99ba50ecb37a6bfd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hospital-o", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_2f94da06c85f467da275116dc194428b.setIcon(icon_3329fe8274d3490c99ba50ecb37a6bfd);
+        
+    
+        var popup_94f1dcd6e61b4d89ab341437fab6f51b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3c40234d01d4b86865a6fba434855aa = $(`<div id="html_f3c40234d01d4b86865a6fba434855aa" style="width: 100.0%; height: 100.0%;"><a href=https://www.latlong.net/place/tiruvalla-medical-mission-hospital-thiruvalla-kerala-india-144.html   target="_blank">Click to now about this Hospital</a></div>`)[0];
+            popup_94f1dcd6e61b4d89ab341437fab6f51b.setContent(html_f3c40234d01d4b86865a6fba434855aa);
+        
+
+        marker_2f94da06c85f467da275116dc194428b.bindPopup(popup_94f1dcd6e61b4d89ab341437fab6f51b)
+        ;
+
+        
+    
+    
+            marker_2f94da06c85f467da275116dc194428b.bindTooltip(
+                `<div>
+                     Tiruvalla Medical Mission Hospital, Thiruvalla, Kerala, India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
